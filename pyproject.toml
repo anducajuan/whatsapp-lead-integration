@@ -16,6 +16,9 @@ dependencies = [
 packages = [{include = "whatsapp_lead_integration", from = "src"}]
 
 
+[tool.poetry.group.production.dependencies]
+gunicorn = "^23.0.0"
+
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"

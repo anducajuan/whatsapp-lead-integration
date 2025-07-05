@@ -1,0 +1,49 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtualenv (caso não esteja usando o do Poetry)
+.venv/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos do Poetry
+poetry.lock
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Cache e logs
+*.log
+*.sqlite3
+*.db
+instance/
+*.egg-info/
+.eggs/
+dist/
+build/
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# Testes
+htmlcov/
+coverage.xml
+*.cover
+.tox/
+
+# Docker (se usar futuramente)
+docker-compose.override.yml
+*.pid
+
+# Outros arq
